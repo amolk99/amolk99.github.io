@@ -448,6 +448,63 @@ function throttle(func, limit) {
 }
 
 // ============================================
+// Scroll Progress Indicator
+// ============================================
+
+const scrollProgressBar = document.querySelector('.scroll-progress-bar');
+const scrollDots = document.querySelectorAll('.scroll-dot');
+const sectionIds = ['hero', 'about', 'skills', 'journey', 'work', 'hobbies', 'contact'];
+
+function updateScrollProgress() {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercent = (scrollTop / docHeight) * 100;
+    
+    // Update progress bar
+    if (scrollProgressBar) {
+        scrollProgressBar.style.setProperty('--scroll-progress', `${scrollPercent}%`);
+    }
+    
+    // Update active dot based on current section
+    let currentSection = 'hero';
+    sectionIds.forEach(id => {
+        const section = document.getElementById(id);
+        if (section) {
+            const rect = section.getBoundingClientRect();
+            if (rect.top <= window.innerHeight / 3) {
+                currentSection = id;
+            }
+        }
+    });
+    
+    scrollDots.forEach(dot => {
+        dot.classList.remove('active');
+        if (dot.dataset.section === currentSection) {
+            dot.classList.add('active');
+        }
+    });
+}
+
+// Add click handlers for scroll dots
+scrollDots.forEach(dot => {
+    dot.addEventListener('click', () => {
+        const sectionId = dot.dataset.section;
+        const section = document.getElementById(sectionId);
+        if (section) {
+            const navHeight = nav.offsetHeight;
+            const targetPosition = section.offsetTop - navHeight - 20;
+            window.scrollTo({
+                top: sectionId === 'hero' ? 0 : targetPosition,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+window.addEventListener('scroll', throttle(updateScrollProgress, 16));
+window.addEventListener('load', updateScrollProgress);
+
+// ============================================
 // Initialize
 // ============================================
 

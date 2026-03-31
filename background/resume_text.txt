@@ -1,0 +1,46 @@
+AMOL KAUSHIK
++46 72 210 14 60 | amolkaushik18@gmail.com | +65 9720 2095
+
+Profile
+Computer Science graduate with practical experience in software, embedded systems, and engineering projects.
+Skilled in Python, Java, and system design with a history of initiative lead contributions and structured problem
+solving. Adaptable team member thriving in multicultural and high pressure environments. Excellent communication/soft skills alongside technical fundamentals to pick up just about anything, with a keen interest in business and
+economics. Native in English and Hindi; conversational in Swedish. Singaporean, work rights in Sweden and Finland.
+
+Education
+• B.Sc. Computer Science, Linnaeus University, Sweden Sep 2022 – Jun 2025
+Bachelor's Thesis: Causal Discovery for Green Software Development. Investigated causal dependencies influencing software energy consumption to support sustainable engineering.
+
+• Diploma in Mechatronics (SeQF Level 5), Temasek Polytechnic, Singapore Apr 2016 - Apr 2019
+GPA: 3.25/4.0. Awarded Distinction and Commendation for Final Year Project with ST Kinetics. Competed in WorldSkills Singapore – Mechatronics (National Qualifiers).
+
+Projects and Work Experience
+• Robotics Engineering Intern, TP Robotics and Automation Centre Sep 2018 – Feb 2019
+– Designed precision 3D CAD assemblies (Creo Parametric) and supported CNC machining and prototyping.
+– Programmed and tuned Maxon EPOS2 CANbus motor controllers via LabVIEW for an IMU stabilisation platform.
+– Assisted academic supervision of electronics and mechatronics final year projects.
+
+• Final Year Project Engineer, ST Kinetics Apr 2018 – Sep 2018
+– Developed embedded C software for an IMU-based self-stabilising motion platform (commendation award).
+– Led mechanical design and CAD modelling; coordinated milestone reviews with industry supervisors.
+
+• WorldSkills Singapore Competitor – Mechatronics 2016 – 2018
+– Designed pneumatic automation systems using FESTO hardware.
+– Programmed PLCs in CoDeSys using Sequential Function Charts (SFC) and Ladder Logic.
+
+• Training Specialist, School of Robotics Dec 2021 – Aug 2022
+– Managed training operations including onboarding, scheduling, mentoring, and process optimisation.
+– Designed project-based curricula emphasising applied robotics and embedded systems.
+
+• National Service – Logistics Management, Singapore Armed Forces Oct 2019 – Aug 2021
+– Directed logistics, asset allocation, and inventory for a company-sized combat engineering unit.
+– Awarded Outstanding Service Award by Battalion Commanding Officer.
+
+• Junior Executive, Miyoshi Limited, Singapore Aug 2021 – Nov 2021
+– Initiated engineering projects with SCDF, ST Kinetics, Markforged 3D printing.
+– Coordinated directly with senior management (CEO, CFO) and external stakeholders.
+
+Technical Skills
+• Languages: Python, Java, PHP, C, C++ (Arduino, PIC), SQL, C++
+• Frameworks/Tools: Git, Gradle, JavaFX, LabVIEW, LaTeX, Creo Parametric, ANTLR, CoDeSys (PLC SFC/Ladder)
+• Areas: Embedded systems, OS, Networks, Data Structures, Software Design, ML fundamentals, Data Science, Model based SWE, Parallel Computing

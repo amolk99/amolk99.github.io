@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amol Kaushik | Tech & Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">AK</a>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#hobbies" class="nav-link">Hobbies</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#journey" class="mobile-link">Journey</a>
+        <a href="#work" class="mobile-link">Work</a>
+        <a href="#hobbies" class="mobile-link">Hobbies</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Available for opportunities</div>
+            <h1 class="hero-title">
+                <span class="hero-greeting">Hello, I'm</span>
+                <span class="hero-name">Amol Kaushik</span>
+            </h1>
+            <p class="hero-subtitle">Tech enthusiast with an eye for design</p>
+            <p class="hero-description">
+                Computer Science graduate blending technical expertise with creative vision. 
+                I use no-code tools and AI-powered development to build engaging, responsive websites.
+                This very site? Built with Claude's agentic coding.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="ios-note">
+                <span class="ios-badge">Design Enthusiast</span>
+                <p>Let's talk about iOS 26's Liquid Glass and what I think about it</p>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Building bridges between<br><span class="gradient-text">technology and design</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a Singaporean Computer Science graduate from Linnaeus University, Sweden, 
+                        with a diverse background spanning robotics, machine learning, and software engineering.
+                    </p>
+                    <p>
+                        My thesis work on <strong>Causal Discovery for Green Software Development</strong> involved 
+                        statistical analysis and ML techniques to uncover dependencies in software energy consumption. 
+                        This analytical mindset helps me approach design with data-driven precision.
+                    </p>
+                    <p>
+                        I have a deep interest in design evolution, particularly following iOS's journey from 
+                        skeuomorphism to flat design to the latest innovations. I believe great design is about 
+                        understanding the "why" behind visual decisions.
+                    </p>
+                    <p>
+                        Currently splitting time between Sweden and Finland, I thrive in multicultural environments 
+                        and speak English, Hindi, and conversational Swedish.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <span class="highlight-number">3+</span>
+                            <span class="highlight-label">Years of Experience</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">4</span>
+                            <span class="highlight-label">Countries Lived</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">3</span>
+                            <span class="highlight-label">Languages Spoken</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <span class="initials">AK</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Capabilities</span>
+                <h2 class="section-title">Skills that make<br><span class="gradient-text">ideas come to life</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <path d="M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3>No-Code Development</h3>
+                    <p>Leveraging modern no-code tools and AI-assisted development to rapidly create polished, functional websites like this one.</p>
+                    <div class="skill-tags">
+                        <span>Claude AI</span>
+                        <span>Rapid Prototyping</span>
+                        <span>Responsive</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>ML & Analytics</h3>
+                    <p>Statistical analysis and machine learning experience from thesis work on causal discovery. Data-driven approach to problem solving.</p>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Data Science</span>
+                        <span>Statistical Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>Global Perspective</h3>
+                    <p>Lived across 4 countries, understanding cultural nuances and adapting designs for different markets and audiences.</p>
+                    <div class="skill-tags">
+                        <span>International</span>
+                        <span>Multilingual</span>
+                        <span>Adaptive</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 20V10"/>
+                            <path d="M18 20V4"/>
+                            <path d="M6 20v-4"/>
+                        </svg>
+                    </div>
+                    <h3>Technical Foundation</h3>
+                    <p>Strong engineering background in embedded systems, robotics, and software design. Understanding how things work under the hood.</p>
+                    <div class="skill-tags">
+                        <span>System Design</span>
+                        <span>Problem Solving</span>
+                        <span>Engineering</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-section">
+                <h3 class="tools-title">Tools I Work With</h3>
+                <div class="tools-grid">
+                    <div class="tool">
+                        <div class="tool-icon vscode"></div>
+                        <span>VS Code</span>
+                    </div>
+                    <div class="tool">
+                        <div class="tool-icon git"></div>
+                        <span>Git</span>
+                    </div>
+                    <div class="tool">
+                        <div class="tool-icon railway"></div>
+                        <span>Railway</span>
+                    </div>
+                    <div class="tool">
+                        <div class="tool-icon claude"></div>
+                        <span>Claude AI</span>
+                    </div>
+                    <div class="tool">
+                        <div class="tool-icon htmlcss"></div>
+                        <span>HTML/CSS/JS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section with Map -->
+    <section id="journey" class="journey">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Journey</span>
+                <h2 class="section-title">A global perspective<br><span class="gradient-text">shaped by experience</span></h2>
+            </div>
+            <div class="journey-content">
+                <div class="journey-map">
+                    <div id="map"></div>
+                </div>
+                <div class="journey-timeline">
+                    <div class="timeline-item" data-location="india">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1999 - 2007</span>
+                            <h4>New Delhi, India</h4>
+                            <p>Born and spent my early childhood years. Where my journey began.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-location="singapore">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2007 - 2022</span>
+                            <h4>Singapore</h4>
+                            <p>Became Singaporean. Completed Diploma in Mechatronics, served National Service, and gained early career experience in robotics and engineering.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-location="sweden">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - Present</span>
+                            <h4>Växjö, Sweden</h4>
+                            <p>B.Sc. in Computer Science at Linnaeus University. Continuing with Master's studies while embracing Scandinavian design philosophy.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-location="finland">
+                        <div class="timeline-marker active"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - Present</span>
+                            <h4>Jyväskylä, Finland</h4>
+                            <p>Splitting time with my partner. Experiencing Nordic life across borders and open to opportunities in the region.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work / Proof of Concept Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Proof of concept<br><span class="gradient-text">in action</span></h2>
+                <p class="section-description">
+                    This website itself is a demonstration of my web design capabilities. 
+                    Below are the features implemented as proof of concept.
+                </p>
+            </div>
+            <div class="features-showcase">
+                <div class="feature-item">
+                    <div class="feature-demo responsive-demo">
+                        <div class="device desktop">
+                            <div class="device-screen"></div>
+                        </div>
+                        <div class="device tablet">
+                            <div class="device-screen"></div>
+                        </div>
+                        <div class="device phone">
+                            <div class="device-screen"></div>
+                        </div>
+                    </div>
+                    <div class="feature-info">
+                        <h3>Responsive Design</h3>
+                        <p>This website adapts seamlessly to any screen size. Try resizing your browser or viewing on different devices.</p>
+                        <ul class="feature-list">
+                            <li>Mobile-first approach</li>
+                            <li>Fluid typography</li>
+                            <li>Flexible layouts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-item reverse">
+                    <div class="feature-demo animation-demo">
+                        <div class="animation-circle"></div>
+                        <div class="animation-square"></div>
+                        <div class="animation-triangle"></div>
+                    </div>
+                    <div class="feature-info">
+                        <h3>Smooth Animations</h3>
+                        <p>Thoughtful micro-interactions and smooth transitions that enhance user experience without being distracting.</p>
+                        <ul class="feature-list">
+                            <li>CSS animations</li>
+                            <li>Scroll-triggered effects</li>
+                            <li>Hover interactions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-demo interactive-demo">
+                        <div class="interactive-map-preview"></div>
+                    </div>
+                    <div class="feature-info">
+                        <h3>Interactive Elements</h3>
+                        <p>From the interactive map showing my journey to dynamic navigation, every element is designed for engagement.</p>
+                        <ul class="feature-list">
+                            <li>Interactive maps</li>
+                            <li>Dynamic content</li>
+                            <li>User feedback</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-item reverse">
+                    <div class="feature-demo brand-demo">
+                        <div class="color-palette">
+                            <div class="color-swatch primary"></div>
+                            <div class="color-swatch secondary"></div>
+                            <div class="color-swatch accent"></div>
+                            <div class="color-swatch neutral"></div>
+                        </div>
+                        <div class="typography-preview">
+                            <span class="font-preview-large">Aa</span>
+                            <span class="font-preview-name">SF Pro</span>
+                        </div>
+                    </div>
+                    <div class="feature-info">
+                        <h3>Visual Consistency</h3>
+                        <p>A cohesive design system with consistent colors, typography, and spacing that maintains brand identity throughout.</p>
+                        <ul class="feature-list">
+                            <li>Design system</li>
+                            <li>Color palette</li>
+                            <li>Typography scale</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Beyond Work</span>
+                <h2 class="section-title">Life outside<br><span class="gradient-text">the screen</span></h2>
+            </div>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Gravel Riding</h3>
+                    <p>Exploring Nordic landscapes on two wheels. There's something meditative about long rides through forests and trails.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M10 12a2 2 0 1 0 4 0 2 2 0 1 0-4 0"/>
+                            <path d="M14 8h.01"/>
+                            <path d="M17 8h.01"/>
+                            <path d="M7 8h.01"/>
+                            <path d="M3 14c.83-.71 1.85-1 3-1 1.15 0 2.17.29 3 1 .83.71 1.85 1 3 1 1.15 0 2.17-.29 3-1 .83-.71 1.85-1 3-1 1.15 0 2.17.29 3 1"/>
+                            <path d="M3 18c.83-.71 1.85-1 3-1 1.15 0 2.17.29 3 1 .83.71 1.85 1 3 1 1.15 0 2.17-.29 3-1 .83-.71 1.85-1 3-1 1.15 0 2.17.29 3 1"/>
+                        </svg>
+                    </div>
+                    <h3>Dog Parent</h3>
+                    <p>Life's better with a furry companion. My dog keeps me active and reminds me to enjoy the simple moments.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 19V5a2 2 0 0 1 2-2h13a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2z"/>
+                            <path d="M8 7h8"/>
+                            <path d="M8 11h8"/>
+                            <path d="M8 15h5"/>
+                        </svg>
+                    </div>
+                    <h3>Reading & Current Events</h3>
+                    <p>Staying informed about local and global politics, world events, and technology trends. Knowledge fuels perspective.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M6.5 6.5m-3.5 0a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0"/>
+                            <path d="M2.5 21v-2a4 4 0 0 1 4-4h.5"/>
+                            <path d="M17.5 6.5m-3.5 0a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0"/>
+                            <path d="M14 14h7v7"/>
+                            <path d="M21 14l-7 7"/>
+                        </svg>
+                    </div>
+                    <h3>Fitness</h3>
+                    <p>Regular workouts to keep the body and mind sharp. Balance between desk work and physical activity is essential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's create something<br><span class="gradient-text">beautiful together</span></h2>
+                </div>
+                <p class="contact-text">
+                    I'm currently looking for new opportunities in design and tech.
+                    Whether you have a project in mind or just want to chat about iOS Liquid Glass, I'd love to hear from you.
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:amolkaushik18@gmail.com" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="M22 6l-10 7L2 6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">amolkaushik18@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="tel:+46722101460" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone (Sweden)</span>
+                            <span class="contact-value">+46 72 210 14 60</span>
+                        </div>
+                    </a>
+                    <a href="tel:+6597202095" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone (Singapore)</span>
+                            <span class="contact-value">+65 9720 2095</span>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/46722101460" target="_blank" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                                <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">WhatsApp</span>
+                            <span class="contact-value">+46 72 210 14 60</span>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/amolkaushik" target="_blank" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">Connect with me</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/amolk99" target="_blank" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">github.com/amolk99</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="contact-cta">
+                    <a href="mailto:amolkaushik18@gmail.com" class="btn btn-primary btn-large">Send Me a Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">Designed & Built by Amol Kaushik</p>
+                <p class="footer-copyright">© 2026 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
